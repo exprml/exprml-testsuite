@@ -1,0 +1,19 @@
+{
+    "name": "work",
+    "dockerComposeFile": "./docker-compose.yaml",
+    "service": "work",
+    "workspaceFolder": "/workspace/",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.githistory",
+                "streetsidesoftware.code-spell-checker",
+                "redhat.vscode-yaml"
+            ],
+            "settings": {
+                "editor.wordWrap": "on",
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}

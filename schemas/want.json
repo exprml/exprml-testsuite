@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "oneOf": [
+        {
+            "type": "object",
+            "properties": {
+                "want_value": {}
+            },
+            "required": [
+                "want_value"
+            ],
+            "additionalProperties": false
+        },
+        {
+            "type": "object",
+            "properties": {
+                "want_error": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "want_error"
+            ],
+            "additionalProperties": false
+        }
+    ]
+}
