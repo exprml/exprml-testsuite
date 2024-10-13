@@ -1,9 +1,5 @@
-eval:
-  ref: a
+eval: $a
 where:
-  - def: a
-    value: { json: 1 }
-  - def: a
-    value: { json: 2 }
-  - def: a
-    value: { json: 3 }
+  - $a: { json: 1 }
+  - $a: { json: 2 }
+  - $a: { json: 3 }

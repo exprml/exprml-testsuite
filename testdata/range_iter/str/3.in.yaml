@@ -1,3 +1,0 @@
-for: [ i, e ]
-in: { json: "" }
-do: { ref: e }
