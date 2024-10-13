@@ -1,8 +1,0 @@
-len:
-  json:
-  - -123.5
-  - abc
-  - true
-  - false
-  - []
-  - {}

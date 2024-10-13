@@ -1,2 +1,2 @@
-schema:
-	curl https://raw.githubusercontent.com/exprml/exprml-language/refs/heads/main/schema.json > schemas/input.json
+schema: ## make schema BRANCH=main
+	curl https://raw.githubusercontent.com/exprml/exprml-language/refs/heads/${BRANCH}/schema.json > schemas/input.json
